@@ -5,6 +5,21 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header, .footer {
+  flex: 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  flex: 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -24,4 +39,26 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+  padding: 10px;
+}
+
+a {
+  /* this removes the line under links */
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+.footer a{
+  color: darkgrey;
+}
+.footer {
+  background-color: #eee;
 }
