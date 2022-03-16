@@ -10,7 +10,6 @@ body {
   display: flex;
 }
 .cards {
-  /*flex: 0 2 auto;*/
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
@@ -32,13 +31,13 @@ body {
   background: #eee;
   color: darkmagenta;
   justify-content: center;
-
 }
 
 .footer, .header {
   display: flex;
   align-items: center;
 }
+
 .sidebar {
   width: 300px;
   background: royalblue;
