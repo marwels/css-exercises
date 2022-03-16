@@ -6,10 +6,8 @@ body {
   flex-direction: column;
 }
 .middle {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   flex: 1 0;
+  display: flex;
 }
 .cards {
   /*flex: 0 2 auto;*/
@@ -17,6 +15,7 @@ body {
   flex-wrap: wrap;
   padding: 32px;
   gap: 20px;
+  flex: 0 3 auto;
 }
 
 .header {
