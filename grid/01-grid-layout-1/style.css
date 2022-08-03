@@ -13,6 +13,7 @@ body, html {
                         "sidebar nav"
                         "sidebar article"
                         "footer footer";
+  grid-template-columns: 1fr 3fr;
 }
 
 .container div {
